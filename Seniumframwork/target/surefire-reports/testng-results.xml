@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-06T23:38:33 IST" name="Suite" finished-at="2026-05-06T23:39:48 IST" duration-ms="74924">
+    <groups>
+      <group name="Errorhandling">
+        <method signature="errorvalidationTest.loginpageerrorvalidation()[pri:0, instance:anandtomaracademy.pageobject.errorvalidationTest@2b30a42c]" name="loginpageerrorvalidation" class="anandtomaracademy.pageobject.errorvalidationTest"/>
+      </group> <!-- Errorhandling -->
+      <group name="Submitorder">
+        <method signature="SupertestTest.submittest(java.util.HashMap)[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" name="submittest" class="anandtomaracademy.pageobject.SupertestTest"/>
+      </group> <!-- Submitorder -->
+    </groups>
+    <test started-at="2026-05-06T23:38:33 IST" name="errorvalidation" finished-at="2026-05-06T23:39:11 IST" duration-ms="37524">
+      <class name="anandtomaracademy.pageobject.errorvalidationTest">
+        <test-method is-config="true" signature="lunchapplication()[pri:0, instance:anandtomaracademy.pageobject.errorvalidationTest@2b30a42c]" started-at="2026-05-06T23:38:33 IST" name="lunchapplication" finished-at="2026-05-06T23:38:43 IST" duration-ms="9408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchapplication -->
+        <test-method signature="loginpageerrorvalidation()[pri:0, instance:anandtomaracademy.pageobject.errorvalidationTest@2b30a42c]" started-at="2026-05-06T23:38:43 IST" name="loginpageerrorvalidation" finished-at="2026-05-06T23:38:43 IST" duration-ms="638" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at anandtomaracademy.pageobject.errorvalidationTest.loginpageerrorvalidation(errorvalidationTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpageerrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:anandtomaracademy.pageobject.errorvalidationTest@2b30a42c]" started-at="2026-05-06T23:38:44 IST" name="teardown" finished-at="2026-05-06T23:38:44 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="lunchapplication()[pri:0, instance:anandtomaracademy.pageobject.errorvalidationTest@2b30a42c]" started-at="2026-05-06T23:38:44 IST" name="lunchapplication" finished-at="2026-05-06T23:38:50 IST" duration-ms="5836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchapplication -->
+        <test-method signature="producterrorvalidation()[pri:0, instance:anandtomaracademy.pageobject.errorvalidationTest@2b30a42c]" started-at="2026-05-06T23:38:50 IST" name="producterrorvalidation" finished-at="2026-05-06T23:39:10 IST" duration-ms="19528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producterrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:anandtomaracademy.pageobject.errorvalidationTest@2b30a42c]" started-at="2026-05-06T23:39:10 IST" name="teardown" finished-at="2026-05-06T23:39:11 IST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- anandtomaracademy.pageobject.errorvalidationTest -->
+    </test> <!-- errorvalidation -->
+    <test started-at="2026-05-06T23:38:33 IST" name="supertest" finished-at="2026-05-06T23:39:48 IST" duration-ms="74924">
+      <class name="anandtomaracademy.pageobject.SupertestTest">
+        <test-method is-config="true" signature="lunchapplication()[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:38:34 IST" name="lunchapplication" finished-at="2026-05-06T23:38:43 IST" duration-ms="9104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchapplication -->
+        <test-method signature="submittest(java.util.HashMap)[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:38:43 IST" name="submittest" data-provider="getdata" finished-at="2026-05-06T23:39:05 IST" duration-ms="22292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Productname=ZARA COAT 3, email=Anandtomar@gmail.com, Password=Anand@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submittest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:39:05 IST" name="teardown" finished-at="2026-05-06T23:39:06 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="lunchapplication()[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:39:06 IST" name="lunchapplication" finished-at="2026-05-06T23:39:12 IST" duration-ms="6417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchapplication -->
+        <test-method signature="submittest(java.util.HashMap)[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:39:12 IST" name="submittest" data-provider="getdata" finished-at="2026-05-06T23:39:42 IST" duration-ms="29925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Productname=ADIDAS ORIGINAL, email=babusingh@123.com, Password=System45}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submittest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:39:42 IST" name="teardown" finished-at="2026-05-06T23:39:42 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="lunchapplication()[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:39:42 IST" name="lunchapplication" finished-at="2026-05-06T23:39:47 IST" duration-ms="4630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchapplication -->
+        <test-method signature="orders()[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:39:47 IST" name="orders" finished-at="2026-05-06T23:39:48 IST" depends-on-methods="anandtomaracademy.pageobject.SupertestTest.submittest" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orders -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:anandtomaracademy.pageobject.SupertestTest@1530c739]" started-at="2026-05-06T23:39:48 IST" name="teardown" finished-at="2026-05-06T23:39:48 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- anandtomaracademy.pageobject.SupertestTest -->
+    </test> <!-- supertest -->
+  </suite> <!-- Suite -->
+</testng-results>

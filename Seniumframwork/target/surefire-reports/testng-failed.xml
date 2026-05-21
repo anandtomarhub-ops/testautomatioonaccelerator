@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="anandtomaracademy.resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="errorvalidation(failed)" verbose="0">
+    <classes>
+      <class name="anandtomaracademy.pageobject.errorvalidationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginpageerrorvalidation"/>
+          <include name="lunchapplication"/>
+        </methods>
+      </class> <!-- anandtomaracademy.pageobject.errorvalidationTest -->
+    </classes>
+  </test> <!-- errorvalidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
